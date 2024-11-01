@@ -50,4 +50,5 @@ bq 2.0.68
 core 2021.05.14
 gsutil 4.62
 
-Passo 2: 
+Passo 2: crie o app.yaml 
+
