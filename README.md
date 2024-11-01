@@ -25,5 +25,8 @@ Passo 10: vamos criar nosso django app: docker-compose run --rm app sh -c "pytho
 Passo 11: enable o app bouncer no seu settings.py em INSTALLED APPS: 'bouncer'
 Passo 12: mude, em settings.py, ALLOWED HOSTS para ALLOWED_HOSTS = ['*'] (apenas utilizando google app engine para deploy)
 Passo 13: fiz outras mudanças em settings.py, é so copiar e colar.
-Passo 14: criar uma view 
+Passo 14: criar uma view: dentro de bouncer, criar uma pasta chamada static, e dentro da pasta static, crie um arquivo chamado style.css
+- adicione css styles ali 
+Passo 15: criar uma view: dentro de bouncer, criar uma pasta chamada templates, e dentro da pasta templates, criar uma pasta chamada bouncer, e dentro dela um arquivo chamado index.html
+- adicione o codigo html 
 
