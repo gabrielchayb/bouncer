@@ -50,5 +50,12 @@ bq 2.0.68
 core 2021.05.14
 gsutil 4.62
 
-Passo 2: crie o app.yaml 
+Passo 2: crie o app.yaml e não se esqueça de tirar o DEBUG do docker-compose.yml e do settings.py
+
+ENTRE EM: cloud.google.com 
+Clique em console
+Clique em "novo projeto" 
+No canto superior esquerdo da pagina, tenha certeza que seu projeto esta selecionado
+No menu esquerdo da pagina, dentro do seu projeto, clique em App Engine: https://console.cloud.google.com/appengine/start?project=bouncer-demo-440414
+Crie um projeto e escolha uma região proxima a vc 
 
