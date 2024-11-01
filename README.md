@@ -29,4 +29,25 @@ Passo 14: criar uma view: dentro de bouncer, criar uma pasta chamada static, e d
 - adicione css styles ali 
 Passo 15: criar uma view: dentro de bouncer, criar uma pasta chamada templates, e dentro da pasta templates, criar uma pasta chamada bouncer, e dentro dela um arquivo chamado index.html
 - adicione o codigo html 
+- - http://127.0.0.1:8000/ - aqui deve aparecer as mudanças que voce fez
 
+DEPLOY TO GAE
+
+Passo 1: criar docker-compose-deploy, e depois disso, rodar: docker-compose -f docker-compose-deploy.yml run --rm gcloud gcloud --version 
+-  ✔ Volume "bouncer_gcp-creds"  Created                                                                                                                              0.0s 
+[+] Running 7/7
+ ✔ gcloud Pulled                                                                                                                                                   22.9s 
+   ✔ 69692152171a Pull complete                                                                                                                                     2.4s 
+   ✔ 6f098e2b432d Pull complete                                                                                                                                     2.6s 
+   ✔ 01880c0d39a7 Pull complete                                                                                                                                     2.6s 
+   ✔ a9be61ca99d9 Pull complete                                                                                                                                     2.6s 
+   ✔ 146dff0925e7 Pull complete                                                                                                                                    18.6s 
+   ✔ fcad230120c2 Pull complete                                                                                                                                    18.6s 
+Google Cloud SDK 341.0.0
+alpha 2021.05.14
+beta 2021.05.14
+bq 2.0.68
+core 2021.05.14
+gsutil 4.62
+
+Passo 2: 
